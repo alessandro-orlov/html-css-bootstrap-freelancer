@@ -1,0 +1,143 @@
+/* GENERAL RULES */
+body { padding-top: 70px; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+a {
+  color: #1abc9c;
+}
+
+/* COMPONMEMTS */
+.ms_navbar {
+  background-color: #2c3e50;
+  height: 70px;
+}
+
+.ms_jumbotron {
+  padding: 50px 0;
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.ms_portfolio-box {
+  height: 200px;
+  background-color: #1abc9c;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.divider {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.divider i {
+  margin: 15px;
+  font-size: 2.1em;
+  color: #2c3e50;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  background-color: #2c3e50;
+  position: relative;
+  top: -9px;
+  border-radius: 4px;
+}
+
+.ms_jumbotron .divider i {
+  color: #fff;
+}
+
+.ms_jumbotron .divider::before,
+.ms_jumbotron .divider::after {
+  background-color: #fff;
+}
+
+.ms_wrapper-70 {
+  width: 70%;
+  margin: 10px auto;
+}
+
+.ms_download-btn {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 8px 15px;
+  background-color: Transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.ms_form-btn {
+  margin: 10px 0;
+  background-color: #1abc9c;
+  border: none;
+  padding: 10px 15px;
+  font-size: 22px;
+}
+
+input,
+textarea {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding: 20px 0;
+  margin: 10px 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #2c3e50;
+  font-size: 22px;
+}
+
+input[value] {
+  color: #2c3e50;
+  font-size: 25px;
+}
+
+.ms_footer {
+  background-color: #3a546d;
+  color: #fff;
+}
+
+.ms_footer p {
+  font-size: 20px;
+}
+
+a {
+  color: #1abc9c;
+}
+
+.ms_top-footer,
+.ms_bottom-footer {
+  padding: 50px 0;
+}
+
+.ms_bottom-footer {
+  background-color: #2c3e50;
+}
+
+.ms_top-footer  a.social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.ms_top-footer .social:last-child {
+  margin-right: 0;
+}

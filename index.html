@@ -73,71 +73,73 @@
       <section id="portfolio" class="ms_section ms_secondary">
         <div class="container">
           <!-- Begin portfolio intro -->
-          <div class="intro text-center">
-            <a class="ms_anchor"name="portfolio"><h2>Portfolio</h2></a>
+          <div class="ms_intro text-center">
+            <a class="ms_anchor" name="portfolio"><h2>Portfolio</h2></a>
             <div class="divider">
               <i class="fas fa-star"></i>
             </div>
           </div>
           <!-- End portfolio heading -->
 
-          <!-- Begin ms_portfolio row -->
+          <!-- Begin portfolio content -->
           <div class="row">
 
             <div class="col-xs-12 col-md-6 col-lg-4">
-              <div class="ms_portfolio-box">
-                <!-- <img src="" alt=""> -->
+              <div class="ms_box">
+                <img src="img/cabin.png" alt="cabin">
               </div>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-4">
-              <div class="ms_portfolio-box">
-                <!-- <img src="" alt=""> -->
+              <div class="ms_box">
+                <img src="img/cake.png" alt="cake">
               </div>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-4">
-              <div class="ms_portfolio-box">
-                <!-- <img src="" alt=""> -->
+              <div class="ms_box">
+                <img src="img/circus.png" alt="circus">
               </div>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-4">
-              <div class="ms_portfolio-box">
-                <!-- <img src="" alt=""> -->
+              <div class="ms_box">
+                <img src="img/game.png" alt="game">
               </div>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-4">
-              <div class="ms_portfolio-box">
-                <!-- <img src="" alt=""> -->
+              <div class="ms_box">
+                <img src="img/safe.png" alt="safe">
               </div>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-4">
-              <div class="ms_portfolio-box">
-                <!-- <img src="" alt=""> -->
+              <div class="ms_box">
+                <img src="img/submarine.png" alt="submarine">
               </div>
             </div>
 
           </div>
-          <!-- End ms_portfolio row -->
+          <!-- End portfolio contetn -->
         </div>
       </section>
       <!-- End section portfolio -->
 
       <!-- Begin about section -->
       <section id="about" class="ms_about ms_section ms_primary">
-        <div class="text-center">
-          <a class="ms_anchor" name="about"><h2>About</h2></a>
-          <div class="divider">
-            <i class="fas fa-star"></i>
-          </div>
-        </div>
-
-        <!-- begin ms_wrapper-70 -->
         <div class="ms_wrapper-70">
           <div class="container-fluid">
+            <!-- Begin about section intro -->
+            <div class="ms_intro text-center">
+              <a class="ms_anchor" name="about"><h2>About</h2></a>
+              <div class="divider">
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <!-- End about section intro -->
+
+            <!-- begin ms_wrapper-70 -->
             <div class="row">
 
               <div class="col-xs-12 col-sm-6">
@@ -153,22 +155,22 @@
               </div>
 
             </div>
+            <!-- End ms_wrapper-70 -->
+
+            <!-- Begin download button -->
+            <div class="text-center">
+              <button type="button" class=" ms_download-btn "><i class="fas fa-download"></i> Download</button>
+            </div>
+            <!-- End download button -->
           </div>
         </div>
-        <!-- End ms_wrapper-70 -->
-
-        <!-- download button -->
-        <div class="text-center">
-          <button type="button" class=" ms_download-btn "><i class="fas fa-download"></i> Download</button>
-        </div>
-
       </section>
       <!-- End about section -->
 
       <!-- Begin contact-me section -->
-      <section id="contact-me" class="ms_contact-me">
-        <!-- Begin contact-me heading -->
-        <div class="text-center">
+      <section id="contact-me" class="ms_section ms_secondary">
+        <!-- Begin contact-me intro -->
+        <div class="ms_intro text-center">
           <a class="ms_anchor" name="contact-me"><h2>Contact me</h2></a>
           <div class="divider">
             <i class="fas fa-star"></i>
@@ -179,19 +181,28 @@
         <!-- Begin contact-me  form -->
         <div class="ms_wrapper-70">
           <div class="container-fluid">
-            <div class="row">
-              <div class="col-xs-12">
 
-                <form class="" action="index.html" method="post">
-                  <input type="text" name="name" placeholder="Name">
-                  <input type="text" name="email" placeholder="Email Address">
-                  <input type="text" name="phone" placeholder="Phone Number">
-                  <textarea name="name" placeholder="Message" rows="8" cols="80"></textarea>
-                  <button type="button" class="btn btn-primary ms_form-btn">Send</button>
-                </form>
+            <form class="" action="index.html" method="post">
 
+              <div class="form-group">
+                <label class="sr-only" for="name">Name</label>
+                <input type="text" name="name" placeholder="Name">
               </div>
-            </div>
+
+              <div class="form-group">
+                <label class="sr-only" for="email">E-mail</label>
+                <input type="text" name="email" placeholder="Email Address">
+              </div>
+
+              <div class="form-group">
+                <label class="sr-only" for="phone">phone number</label>
+                <input type="number" name="phone" placeholder="Phone Number">
+              </div>
+
+              <textarea name="name" placeholder="Message" rows="8" cols="80"></textarea>
+              <button type="button" class="btn btn-primary ms_form-btn">Send</button>
+            </form>
+
           </div>
         </div>
         <!-- End contact-me form -->
@@ -200,22 +211,20 @@
     </main>
 
     <footer>
-      <section id="footer" class="ms_footer text-center">
-
-        <!-- Begin top-footer -->
-        <div class="ms_top-footer">
+        <!-- Begin footer top -->
+        <div class="ms_footer-section">
           <div class="container">
             <div class="row">
 
               <div class="col-xs-12 col-sm-4">
-                <div class="box">
+                <div class="ms_box">
                   <h3>location</h3>
                   <p>2215 John Daniel Drive Clark, MO 54243</p>
                 </div>
               </div>
 
               <div class="col-xs-12 col-sm-4">
-                <div class="box">
+                <div class="ms_box">
                   <h3>around the web</h3>
                   <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
                   <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
@@ -225,7 +234,7 @@
               </div>
 
               <div class="col-xs-12 col-sm-4">
-                <div class="box">
+                <div class="ms_box">
                   <h3>About freelancer</h3>
                   <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
                 </div>
@@ -234,16 +243,15 @@
             </div>
           </div>
         </div>
-        <!-- End top-footer -->
+        <!-- End footer top -->
 
-        <!-- Begin bottom-footer -->
-        <div class="ms_bottom-footer">
-          <div class="text-center">
+        <!-- Begin footer bottom-->
+        <div class="ms_footer-section ms_cpyright">
+          <div class="container text-center">
             <p>Copyright &copy; Your website 2019 </p>
           </div>
         </div>
-        <!-- Begin bottom-footer -->
-      </section>
+        <!-- End footer bottom -->
     </footer>
   </body>
 </html>

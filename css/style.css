@@ -1,3 +1,4 @@
+/*===============*/
 /* GENERAL RULES */
 body { padding-top: 70px; }
 
@@ -9,82 +10,13 @@ a {
   color: #1abc9c;
 }
 
+a.ms_anchor {
+  color:inherit;
+  text-decoration: none;
+}
+
 p {
   font-size: 18px;
-}
-
-/* COMPONMEMTS */
-.ms_navbar {
-  background-color: #2c3e50;
-  height: 70px;
-}
-
-.ms_jumbotron {
-  padding: 50px 0;
-  background-color: #1abc9c;
-  color: #fff;
-}
-
-.ms_portfolio-box {
-  height: 200px;
-  background-color: #1abc9c;
-  margin-bottom: 30px;
-  border-radius: 10px;
-}
-
-.divider {
-  width: max-content;
-  margin: 0 auto;
-}
-
-.divider i {
-  margin: 15px;
-  font-size: 2.1em;
-  color: #2c3e50;
-}
-
-.divider::before,
-.divider::after {
-  content: "";
-  display: inline-block;
-  width: 70px;
-  height: 4px;
-  background-color: #2c3e50;
-  position: relative;
-  top: -9px;
-  border-radius: 4px;
-}
-
-.ms_jumbotron .divider i {
-  color: #fff;
-}
-
-.ms_jumbotron .divider::before,
-.ms_jumbotron .divider::after {
-  background-color: #fff;
-}
-
-.ms_wrapper-70 {
-  width: 70%;
-  margin: 10px auto;
-}
-
-.ms_download-btn {
-  color: #fff;
-  font-size: 1.1em;
-  padding: 8px 15px;
-  background-color: Transparent;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
-.ms_form-btn {
-  margin: 10px 0;
-  background-color: #1abc9c;
-  border: none;
-  padding: 10px 15px;
-  font-size: 22px;
 }
 
 input,
@@ -108,16 +40,167 @@ input[value] {
   font-size: 25px;
 }
 
+.ms_wrapper-70 {
+  width: 70%;
+  margin: 10px auto;
+}
+
+/*==========*/
+/* SECTIONS */
+.ms_section {
+  padding: 50px 0;
+}
+
+.ms_primary {
+  color: #fff;
+  background-color: #1abc9c;
+}
+
+.ms_secondary {
+  color: #333;
+  background-color: #fff;;
+}
+
+/*===================*/
+/* BEGIN COMPONMEMTS */
+
+/* header navbar */
+.ms_navbar {
+  background-color: #2c3e50;
+  line-height: 70px;
+  color: #fff;
+}
+
+.ms_navbar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ms_company-name {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.ms_menu ul {
+  list-style: none;
+  margin: 0;
+}
+
+.ms_menu ul>li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.ms_menu ul>li:last-child {
+  margin-right: 0;
+}
+
+.ms_burger-menu {
+  display: inline;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  color: #ccc;
+  border-radius: 4px;
+}
+
+/* teaser */
+.ms_teaser img.ms_avatar{
+  height: 200px;
+}
+
+.ms_teaser h1 {
+  margin: 10px auto;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.ms_teaser .ms_specialities {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* intro */
+.ms_intro h2 {
+  font-size:
+}
+
+/* begin divider */
+.divider {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.divider i {
+  margin: 15px;
+  font-size: 2.1em;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  background-color: #fff;
+  position: relative;
+  top: -9px;
+  border-radius: 4px;
+}
+
+.ms_secondary .divider i {
+  color: #2c3e50;
+}
+
+.ms_secondary .divider::before,
+.ms_secondary .divider::after {
+  background-color: #2c3e50;
+}
+/* End divider */
+
+
+.ms_portfolio-box {
+  height: 200px;
+  background-color: #1abc9c;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+/* END COMPONMEMTS */
+/*=================*/
+
+
+
+.ms_download-btn {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 8px 15px;
+  background-color: Transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.ms_form-btn {
+  margin: 10px 0;
+  background-color: #1abc9c;
+  border: none;
+  padding: 10px 15px;
+  font-size: 22px;
+}
+
+/*========*/
+/* FOOTER */
 .ms_footer {
   background-color: #3a546d;
   color: #fff;
 }
 
-.ms_footer p {
-  font-size: 20px;
-}
-
-a {
+footer a {
   color: #1abc9c;
 }
 

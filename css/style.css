@@ -96,11 +96,7 @@ input[value] {
 
 .ms_menu ul>li {
   display: inline-block;
-  margin-right: 10px;
-}
-
-.ms_menu ul>li:last-child {
-  margin-right: 0;
+  margin-left: 10px;
 }
 
 .ms_burger-menu {
@@ -172,7 +168,7 @@ input[value] {
 
 .ms_box img {
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 10px;
 }
 /* END COMPONMEMTS */
@@ -212,9 +208,11 @@ footer a {
   padding: 40px 0;
 }
 
-.ms_cpyright {
+.ms_copyright {
   background-color: #2c3e50;
 }
+
+
 
 .ms_footer-section  a.social {
   display: inline-block;
